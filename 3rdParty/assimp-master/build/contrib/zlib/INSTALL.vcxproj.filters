@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\build\CMakeFiles\78d722f0a1368389bb9b764041b3725f\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5D83A93D-3ADE-3244-A1C8-BDBCDC30CDE3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

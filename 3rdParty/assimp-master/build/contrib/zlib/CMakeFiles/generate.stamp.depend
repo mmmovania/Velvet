@@ -1,0 +1,14 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.24/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.24/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/CheckIncludeFile.c.in
+C:/Program Files/CMake/share/cmake-3.24/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/CheckTypeSize.c.in
+C:/Program Files/CMake/share/cmake-3.24/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/Internal/CheckSourceCompiles.cmake
+F:/FreelanceWork/2022/Jeff_GarmentSimulator/Task4/Velvet-master/3rdParty/assimp-master/build/CMakeFiles/CheckTypeSize/OFF64_T.c
+F:/FreelanceWork/2022/Jeff_GarmentSimulator/Task4/Velvet-master/3rdParty/assimp-master/contrib/zlib/CMakeLists.txt
+F:/FreelanceWork/2022/Jeff_GarmentSimulator/Task4/Velvet-master/3rdParty/assimp-master/contrib/zlib/zconf.h.cmakein
+F:/FreelanceWork/2022/Jeff_GarmentSimulator/Task4/Velvet-master/3rdParty/assimp-master/contrib/zlib/zlib.pc.cmakein

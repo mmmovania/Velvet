@@ -1,0 +1,10 @@
+^F:\FREELANCEWORK\2022\JEFF_GARMENTSIMULATOR\TASK4\VELVET-MASTER\3RDPARTY\ASSIMP-MASTER\CONTRIB\ZLIB\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/FreelanceWork/2022/Jeff_GarmentSimulator/Task4/Velvet-master/3rdParty/assimp-master -BF:/FreelanceWork/2022/Jeff_GarmentSimulator/Task4/Velvet-master/3rdParty/assimp-master/build --check-stamp-file F:/FreelanceWork/2022/Jeff_GarmentSimulator/Task4/Velvet-master/3rdParty/assimp-master/build/contrib/zlib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

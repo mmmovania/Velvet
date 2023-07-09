@@ -1,0 +1,1982 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\Assimp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\CApi\CInterfaceIOWrapper.cpp">
+      <Filter>CApi</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\Compression.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\BaseImporter.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\BaseProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\PostStepRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\ImporterRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\DefaultIOStream.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\IOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\DefaultIOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\ZipArchiveIOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\Importer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\SGSpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\VertexTriangleAdjacency.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\SpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\SceneCombiner.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\ScenePreprocessor.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\SkeletonMeshBuilder.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\StandardShapes.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\TargetAnimation.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\RemoveComments.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\Subdivision.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\scene.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\Bitmap.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\Version.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\CreateAnimMesh.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\simd.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\material.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\AssertHandler.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\Exceptional.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\Base64.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Geometry\GeometryUtils.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\DefaultLogger.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\Exporter.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\CApi\AssimpCExport.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\CalcTangentsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\ComputeUVMappingProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\ConvertToLHProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\EmbedTexturesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\FindDegenerates.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\FindInstancesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\FindInvalidDataProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\FixNormalsStep.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\DropFaceNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\GenFaceNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\GenVertexNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\PretransformVertices.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\ImproveCacheLocality.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\JoinVerticesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\LimitBoneWeightsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\RemoveRedundantMaterials.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\RemoveVCProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\SortByPTypeProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\SplitLargeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\TextureTransform.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\TriangulateProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\ValidateDataStructure.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\OptimizeGraph.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\OptimizeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\DeboneProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\ProcessHelper.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\MakeVerboseFormat.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\ScaleProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\ArmaturePopulate.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\GenBoundingBoxesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\SplitByBoneCountProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Material\MaterialSystem.cpp">
+      <Filter>MaterialSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\STEPParser\STEPFileReader.cpp">
+      <Filter>STEPParser</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\STEPParser\STEPFileEncoding.cpp">
+      <Filter>STEPParser</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\AMF\AMFImporter.cpp">
+      <Filter>AssetLib\AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\AMF\AMFImporter_Geometry.cpp">
+      <Filter>AssetLib\AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\AMF\AMFImporter_Material.cpp">
+      <Filter>AssetLib\AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\AMF\AMFImporter_Postprocess.cpp">
+      <Filter>AssetLib\AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\3DS\3DSConverter.cpp">
+      <Filter>AssetLib\3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\3DS\3DSLoader.cpp">
+      <Filter>AssetLib\3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\AC\ACLoader.cpp">
+      <Filter>AssetLib\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\ASE\ASELoader.cpp">
+      <Filter>AssetLib\ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\ASE\ASEParser.cpp">
+      <Filter>AssetLib\ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Assbin\AssbinLoader.cpp">
+      <Filter>AssetLib\ASSBIN</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\B3D\B3DImporter.cpp">
+      <Filter>AssetLib\B3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\BVH\BVHLoader.cpp">
+      <Filter>AssetLib\BVH</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Collada\ColladaHelper.cpp">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Collada\ColladaLoader.cpp">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Collada\ColladaParser.cpp">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\DXF\DXFLoader.cpp">
+      <Filter>AssetLib\DXF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\CSM\CSMLoader.cpp">
+      <Filter>AssetLib\CSM</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\HMP\HMPLoader.cpp">
+      <Filter>AssetLib\HMP</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Irr\IRRMeshLoader.cpp">
+      <Filter>AssetLib\IRRMESH</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Irr\IRRShared.cpp">
+      <Filter>AssetLib\IRRMESH</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\IQM\IQMImporter.cpp">
+      <Filter>AssetLib\IQM</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Irr\IRRLoader.cpp">
+      <Filter>AssetLib\IRR</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\LWO\LWOAnimation.cpp">
+      <Filter>AssetLib\LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\LWO\LWOBLoader.cpp">
+      <Filter>AssetLib\LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\LWO\LWOLoader.cpp">
+      <Filter>AssetLib\LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\LWO\LWOMaterial.cpp">
+      <Filter>AssetLib\LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\LWS\LWSLoader.cpp">
+      <Filter>AssetLib\LWS</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\M3D\M3DImporter.cpp">
+      <Filter>AssetLib\M3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\M3D\M3DWrapper.cpp">
+      <Filter>AssetLib\M3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\MD2\MD2Loader.cpp">
+      <Filter>AssetLib\MD2</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\MD3\MD3Loader.cpp">
+      <Filter>AssetLib\MD3</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\MD5\MD5Loader.cpp">
+      <Filter>AssetLib\MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\MD5\MD5Parser.cpp">
+      <Filter>AssetLib\MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\MDC\MDCLoader.cpp">
+      <Filter>AssetLib\MDC</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\MDL\MDLLoader.cpp">
+      <Filter>AssetLib\MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\MDL\MDLMaterialLoader.cpp">
+      <Filter>AssetLib\MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\MDL\HalfLife\HL1MDLLoader.cpp">
+      <Filter>AssetLib\MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\MDL\HalfLife\UniqueNameGenerator.cpp">
+      <Filter>AssetLib\MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\NFF\NFFLoader.cpp">
+      <Filter>AssetLib\NFF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\NDO\NDOLoader.cpp">
+      <Filter>AssetLib\NDO</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\OFF\OFFLoader.cpp">
+      <Filter>AssetLib\OFF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Obj\ObjFileImporter.cpp">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Obj\ObjFileMtlImporter.cpp">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Obj\ObjFileParser.cpp">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Ogre\OgreImporter.cpp">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Ogre\OgreStructs.cpp">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Ogre\OgreBinarySerializer.cpp">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Ogre\OgreXmlSerializer.cpp">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Ogre\OgreMaterial.cpp">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\OpenGEX\OpenGEXImporter.cpp">
+      <Filter>AssetLib\OPENGEX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Ply\PlyLoader.cpp">
+      <Filter>AssetLib\PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Ply\PlyParser.cpp">
+      <Filter>AssetLib\PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\MS3D\MS3DLoader.cpp">
+      <Filter>AssetLib\MS3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\COB\COBLoader.cpp">
+      <Filter>AssetLib\COB</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Blender\BlenderLoader.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Blender\BlenderDNA.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Blender\BlenderScene.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Blender\BlenderModifier.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Blender\BlenderBMesh.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Blender\BlenderTessellator.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Blender\BlenderCustomData.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\IFC\IFCLoader.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\IFC\IFCReaderGen1_2x3.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\IFC\IFCReaderGen2_2x3.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\IFC\IFCUtil.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\IFC\IFCGeometry.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\IFC\IFCMaterial.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\IFC\IFCProfile.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\IFC\IFCCurve.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\IFC\IFCBoolean.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\IFC\IFCOpenings.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\XGL\XGLLoader.cpp">
+      <Filter>AssetLib\XGL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\FBX\FBXImporter.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\FBX\FBXParser.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\FBX\FBXTokenizer.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\FBX\FBXConverter.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\FBX\FBXUtil.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\FBX\FBXDocument.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\FBX\FBXProperties.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\FBX\FBXMeshGeometry.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\FBX\FBXMaterial.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\FBX\FBXModel.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\FBX\FBXAnimation.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\FBX\FBXNodeAttribute.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\FBX\FBXDeformer.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\FBX\FBXBinaryTokenizer.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\FBX\FBXDocumentUtil.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Q3D\Q3DLoader.cpp">
+      <Filter>AssetLib\Q3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Q3BSP\Q3BSPFileParser.cpp">
+      <Filter>AssetLib\Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Q3BSP\Q3BSPFileImporter.cpp">
+      <Filter>AssetLib\Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Raw\RawLoader.cpp">
+      <Filter>AssetLib\RAW</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\SIB\SIBImporter.cpp">
+      <Filter>AssetLib\SIB</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\SMD\SMDLoader.cpp">
+      <Filter>AssetLib\SMD</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\STL\STLLoader.cpp">
+      <Filter>AssetLib\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Terragen\TerragenLoader.cpp">
+      <Filter>AssetLib\TERRAGEN</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Unreal\UnrealLoader.cpp">
+      <Filter>AssetLib\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\X\XFileImporter.cpp">
+      <Filter>AssetLib\X</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\X\XFileParser.cpp">
+      <Filter>AssetLib\X</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\X3D\X3DImporter.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\X3D\X3DImporter_Geometry2D.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\X3D\X3DImporter_Geometry3D.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\X3D\X3DImporter_Group.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\X3D\X3DImporter_Light.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\X3D\X3DImporter_Metadata.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\X3D\X3DImporter_Networking.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\X3D\X3DImporter_Postprocess.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\X3D\X3DImporter_Rendering.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\X3D\X3DImporter_Shape.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\X3D\X3DImporter_Texturing.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\X3D\X3DGeoHelper.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\X3D\X3DXmlHelper.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\glTF\glTFCommon.cpp">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\glTF\glTFImporter.cpp">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\glTF2\glTF2Importer.cpp">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\3MF\XmlSerializer.cpp">
+      <Filter>AssetLib\3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\3MF\D3MFImporter.cpp">
+      <Filter>AssetLib\3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\3MF\D3MFOpcPackage.cpp">
+      <Filter>AssetLib\3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\MMD\MMDImporter.cpp">
+      <Filter>AssetLib\MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\MMD\MMDPmxParser.cpp">
+      <Filter>AssetLib\MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Obj\ObjExporter.cpp">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\OpenGEX\OpenGEXExporter.cpp">
+      <Filter>AssetLib\OPENGEX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Ply\PlyExporter.cpp">
+      <Filter>AssetLib\PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\3DS\3DSExporter.cpp">
+      <Filter>AssetLib\3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Assbin\AssbinExporter.cpp">
+      <Filter>AssetLib\ASSBIN</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Assbin\AssbinFileWriter.cpp">
+      <Filter>AssetLib\ASSBIN</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Assxml\AssxmlExporter.cpp">
+      <Filter>AssetLib\ASSXML</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Assxml\AssxmlFileWriter.cpp">
+      <Filter>AssetLib\ASSXML</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\M3D\M3DExporter.cpp">
+      <Filter>AssetLib\M3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Collada\ColladaExporter.cpp">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\FBX\FBXExporter.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\FBX\FBXExportNode.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\FBX\FBXExportProperty.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\STL\STLExporter.cpp">
+      <Filter>AssetLib\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\X\XFileExporter.cpp">
+      <Filter>AssetLib\X</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\X3D\X3DExporter.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\glTF\glTFExporter.cpp">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\glTF2\glTF2Exporter.cpp">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\3MF\D3MFExporter.cpp">
+      <Filter>AssetLib\3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Pbrt\PbrtExporter.cpp">
+      <Filter>AssetLib\PBRT</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Assjson\cencode.c">
+      <Filter>AssetLib\ASSJSON</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Assjson\json_exporter.cpp">
+      <Filter>AssetLib\ASSJSON</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Assjson\mesh_splitter.cpp">
+      <Filter>AssetLib\ASSJSON</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Step\StepExporter.cpp">
+      <Filter>AssetLib\STEP</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\unzip\ioapi.c">
+      <Filter>Contrib\unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\unzip\unzip.c">
+      <Filter>Contrib\unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\poly2tri\poly2tri\common\shapes.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\poly2tri\poly2tri\sweep\advancing_front.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\poly2tri\poly2tri\sweep\cdt.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\poly2tri\poly2tri\sweep\sweep.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\poly2tri\poly2tri\sweep\sweep_context.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\clipper\clipper.cpp">
+      <Filter>Contrib\Clipper</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\openddlparser\code\OpenDDLParser.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\openddlparser\code\DDLNode.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\openddlparser\code\OpenDDLCommon.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\openddlparser\code\OpenDDLExport.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\openddlparser\code\Value.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\openddlparser\code\OpenDDLStream.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\Open3DGC\o3dgcArithmeticCodec.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\Open3DGC\o3dgcDynamicVectorDecoder.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\Open3DGC\o3dgcDynamicVectorEncoder.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\Open3DGC\o3dgcTools.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\Open3DGC\o3dgcTriangleFans.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\zip\src\zip.c">
+      <Filter>ziplib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\CApi\CInterfaceIOWrapper.h">
+      <Filter>CApi</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\StbCommon.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\Compression.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\BaseProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\Importer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\ScenePrivate.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\DefaultProgressHandler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\PolyTools.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\Maybe.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\IFF.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\VertexTriangleAdjacency.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\ScenePreprocessor.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\StackAllocator.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\StackAllocator.inl">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\TargetAnimation.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\simd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Geometry\GeometryUtils.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\DefaultLogger.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\LogStream.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\Logger.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\NullLogger.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\Win32DebugLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\FileLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Common\StdOStreamLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\BlobIOSystem.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\CalcTangentsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\ComputeUVMappingProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\ConvertToLHProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\EmbedTexturesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\FindDegenerates.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\FindInstancesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\FindInvalidDataProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\FixNormalsStep.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\DropFaceNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\GenFaceNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\GenVertexNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\PretransformVertices.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\ImproveCacheLocality.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\JoinVerticesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\LimitBoneWeightsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\RemoveRedundantMaterials.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\RemoveVCProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\SortByPTypeProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\SplitLargeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\TextureTransform.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\TriangulateProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\ValidateDataStructure.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\OptimizeGraph.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\OptimizeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\DeboneProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\ProcessHelper.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\MakeVerboseFormat.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\ScaleProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\ArmaturePopulate.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\GenBoundingBoxesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\PostProcessing\SplitByBoneCountProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Material\MaterialSystem.h">
+      <Filter>MaterialSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\STEPParser\STEPFileReader.h">
+      <Filter>STEPParser</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\STEPParser\STEPFileEncoding.h">
+      <Filter>STEPParser</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\AMF\AMFImporter.hpp">
+      <Filter>AssetLib\AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\AMF\AMFImporter_Node.hpp">
+      <Filter>AssetLib\AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\3DS\3DSHelper.h">
+      <Filter>AssetLib\3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\3DS\3DSLoader.h">
+      <Filter>AssetLib\3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\AC\ACLoader.h">
+      <Filter>AssetLib\AC</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\ASE\ASELoader.h">
+      <Filter>AssetLib\ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\ASE\ASEParser.h">
+      <Filter>AssetLib\ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Assbin\AssbinLoader.h">
+      <Filter>AssetLib\ASSBIN</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\B3D\B3DImporter.h">
+      <Filter>AssetLib\B3D</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\BVH\BVHLoader.h">
+      <Filter>AssetLib\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Collada\ColladaHelper.h">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Collada\ColladaLoader.h">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Collada\ColladaParser.h">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\DXF\DXFLoader.h">
+      <Filter>AssetLib\DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\DXF\DXFHelper.h">
+      <Filter>AssetLib\DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\CSM\CSMLoader.h">
+      <Filter>AssetLib\CSM</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\HMP\HMPFileData.h">
+      <Filter>AssetLib\HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\HMP\HMPLoader.h">
+      <Filter>AssetLib\HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\HMP\HalfLifeFileData.h">
+      <Filter>AssetLib\HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Irr\IRRMeshLoader.h">
+      <Filter>AssetLib\IRRMESH</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Irr\IRRShared.h">
+      <Filter>AssetLib\IRRMESH</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\IQM\iqm.h">
+      <Filter>AssetLib\IQM</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\IQM\IQMImporter.h">
+      <Filter>AssetLib\IQM</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Irr\IRRLoader.h">
+      <Filter>AssetLib\IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\LWO\LWOAnimation.h">
+      <Filter>AssetLib\LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\LWO\LWOFileData.h">
+      <Filter>AssetLib\LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\LWO\LWOLoader.h">
+      <Filter>AssetLib\LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\LWS\LWSLoader.h">
+      <Filter>AssetLib\LWS</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\M3D\M3DMaterials.h">
+      <Filter>AssetLib\M3D</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\M3D\M3DImporter.h">
+      <Filter>AssetLib\M3D</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\M3D\M3DWrapper.h">
+      <Filter>AssetLib\M3D</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\M3D\m3d.h">
+      <Filter>AssetLib\M3D</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\MD2\MD2FileData.h">
+      <Filter>AssetLib\MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\MD2\MD2Loader.h">
+      <Filter>AssetLib\MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\MD2\MD2NormalTable.h">
+      <Filter>AssetLib\MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\MD3\MD3FileData.h">
+      <Filter>AssetLib\MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\MD3\MD3Loader.h">
+      <Filter>AssetLib\MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\MD5\MD5Loader.h">
+      <Filter>AssetLib\MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\MD5\MD5Parser.h">
+      <Filter>AssetLib\MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\MDC\MDCFileData.h">
+      <Filter>AssetLib\MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\MDC\MDCLoader.h">
+      <Filter>AssetLib\MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\MDC\MDCNormalTable.h">
+      <Filter>AssetLib\MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\MDL\MDLDefaultColorMap.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\MDL\MDLFileData.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\MDL\MDLLoader.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\MDL\HalfLife\HalfLifeMDLBaseHeader.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\MDL\HalfLife\HL1FileData.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\MDL\HalfLife\HL1MDLLoader.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\MDL\HalfLife\HL1ImportDefinitions.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\MDL\HalfLife\HL1ImportSettings.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\MDL\HalfLife\HL1MeshTrivert.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\MDL\HalfLife\LogFunctions.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\MDL\HalfLife\UniqueNameGenerator.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\NFF\NFFLoader.h">
+      <Filter>AssetLib\NFF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\NDO\NDOLoader.h">
+      <Filter>AssetLib\NDO</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\OFF\OFFLoader.h">
+      <Filter>AssetLib\OFF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Obj\ObjFileData.h">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Obj\ObjFileImporter.h">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Obj\ObjFileMtlImporter.h">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Obj\ObjFileParser.h">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Obj\ObjTools.h">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Ogre\OgreImporter.h">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Ogre\OgreStructs.h">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Ogre\OgreParsingUtils.h">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Ogre\OgreBinarySerializer.h">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Ogre\OgreXmlSerializer.h">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\OpenGEX\OpenGEXImporter.h">
+      <Filter>AssetLib\OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\OpenGEX\OpenGEXStructs.h">
+      <Filter>AssetLib\OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Ply\PlyLoader.h">
+      <Filter>AssetLib\PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Ply\PlyParser.h">
+      <Filter>AssetLib\PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\MS3D\MS3DLoader.h">
+      <Filter>AssetLib\MS3D</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\COB\COBLoader.h">
+      <Filter>AssetLib\COB</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\COB\COBScene.h">
+      <Filter>AssetLib\COB</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Blender\BlenderLoader.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Blender\BlenderDNA.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Blender\BlenderDNA.inl">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Blender\BlenderScene.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Blender\BlenderSceneGen.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Blender\BlenderIntermediate.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Blender\BlenderModifier.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Blender\BlenderBMesh.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Blender\BlenderTessellator.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Blender\BlenderCustomData.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\IFC\IFCLoader.h">
+      <Filter>AssetLib\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\IFC\IFCReaderGen_2x3.h">
+      <Filter>AssetLib\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\IFC\IFCUtil.h">
+      <Filter>AssetLib\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\XGL\XGLLoader.h">
+      <Filter>AssetLib\XGL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\FBX\FBXCompileConfig.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\FBX\FBXImporter.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\FBX\FBXParser.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\FBX\FBXTokenizer.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\FBX\FBXImportSettings.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\FBX\FBXConverter.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\FBX\FBXUtil.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\FBX\FBXDocument.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\FBX\FBXProperties.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\FBX\FBXMeshGeometry.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\FBX\FBXCommon.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Q3D\Q3DLoader.h">
+      <Filter>AssetLib\Q3D</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Q3BSP\Q3BSPFileData.h">
+      <Filter>AssetLib\Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Q3BSP\Q3BSPFileParser.h">
+      <Filter>AssetLib\Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Q3BSP\Q3BSPFileImporter.h">
+      <Filter>AssetLib\Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Raw\RawLoader.h">
+      <Filter>AssetLib\RAW</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\SIB\SIBImporter.h">
+      <Filter>AssetLib\SIB</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\SMD\SMDLoader.h">
+      <Filter>AssetLib\SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\STL\STLLoader.h">
+      <Filter>AssetLib\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Terragen\TerragenLoader.h">
+      <Filter>AssetLib\TERRAGEN</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Unreal\UnrealLoader.h">
+      <Filter>AssetLib\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\X\XFileHelper.h">
+      <Filter>AssetLib\X</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\X\XFileImporter.h">
+      <Filter>AssetLib\X</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\X\XFileParser.h">
+      <Filter>AssetLib\X</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\X3D\X3DImporter.hpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\X3D\X3DImporter_Macro.hpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\X3D\X3DImporter_Node.hpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\X3D\X3DGeoHelper.h">
+      <Filter>AssetLib\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\X3D\X3DXmlHelper.h">
+      <Filter>AssetLib\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\glTF\glTFCommon.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\glTF\glTFAsset.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\glTF\glTFAsset.inl">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\glTF\glTFAssetWriter.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\glTF\glTFAssetWriter.inl">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\glTF\glTFImporter.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\glTF2\glTF2Asset.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\glTF2\glTF2Asset.inl">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\glTF2\glTF2AssetWriter.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\glTF2\glTF2AssetWriter.inl">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\glTF2\glTF2Importer.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\3MF\3MFTypes.h">
+      <Filter>AssetLib\3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\3MF\XmlSerializer.h">
+      <Filter>AssetLib\3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\3MF\D3MFImporter.h">
+      <Filter>AssetLib\3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\3MF\D3MFOpcPackage.h">
+      <Filter>AssetLib\3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\3MF\3MFXmlTags.h">
+      <Filter>AssetLib\3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\MMD\MMDCpp14.h">
+      <Filter>AssetLib\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\MMD\MMDImporter.h">
+      <Filter>AssetLib\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\MMD\MMDPmdParser.h">
+      <Filter>AssetLib\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\MMD\MMDPmxParser.h">
+      <Filter>AssetLib\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\MMD\MMDVmdParser.h">
+      <Filter>AssetLib\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Obj\ObjExporter.h">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\OpenGEX\OpenGEXExporter.h">
+      <Filter>AssetLib\OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Ply\PlyExporter.h">
+      <Filter>AssetLib\PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\3DS\3DSExporter.h">
+      <Filter>AssetLib\3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Assbin\AssbinExporter.h">
+      <Filter>AssetLib\ASSBIN</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Assbin\AssbinFileWriter.h">
+      <Filter>AssetLib\ASSBIN</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Assxml\AssxmlExporter.h">
+      <Filter>AssetLib\ASSXML</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Assxml\AssxmlFileWriter.h">
+      <Filter>AssetLib\ASSXML</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\M3D\M3DExporter.h">
+      <Filter>AssetLib\M3D</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Collada\ColladaExporter.h">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\FBX\FBXExporter.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\FBX\FBXExportNode.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\FBX\FBXExportProperty.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\STL\STLExporter.h">
+      <Filter>AssetLib\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\X\XFileExporter.h">
+      <Filter>AssetLib\X</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\X3D\X3DExporter.hpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\glTF\glTFExporter.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\glTF2\glTF2Exporter.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\3MF\D3MFExporter.h">
+      <Filter>AssetLib\3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\Pbrt\PbrtExporter.h">
+      <Filter>AssetLib\PBRT</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Assjson\cencode.h">
+      <Filter>AssetLib\ASSJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Assjson\mesh_splitter.h">
+      <Filter>AssetLib\ASSJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\AssetLib\Step\StepExporter.h">
+      <Filter>AssetLib\STEP</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\unzip\crypt.h">
+      <Filter>Contrib\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\unzip\ioapi.h">
+      <Filter>Contrib\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\unzip\unzip.h">
+      <Filter>Contrib\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\poly2tri\poly2tri\common\shapes.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\poly2tri\poly2tri\common\utils.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\poly2tri\poly2tri\sweep\advancing_front.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\poly2tri\poly2tri\sweep\cdt.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\poly2tri\poly2tri\sweep\sweep.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\poly2tri\poly2tri\sweep\sweep_context.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\clipper\clipper.hpp">
+      <Filter>Contrib\Clipper</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\openddlparser\include\openddlparser\OpenDDLParser.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\openddlparser\include\openddlparser\OpenDDLParserUtils.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\openddlparser\include\openddlparser\OpenDDLCommon.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\openddlparser\include\openddlparser\OpenDDLExport.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\openddlparser\include\openddlparser\OpenDDLStream.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\openddlparser\include\openddlparser\DDLNode.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\openddlparser\include\openddlparser\Value.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\Open3DGC\o3dgcAdjacencyInfo.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\Open3DGC\o3dgcArithmeticCodec.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\Open3DGC\o3dgcBinaryStream.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\Open3DGC\o3dgcCommon.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\Open3DGC\o3dgcDVEncodeParams.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\Open3DGC\o3dgcDynamicVectorDecoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\Open3DGC\o3dgcDynamicVectorEncoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\Open3DGC\o3dgcDynamicVector.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\Open3DGC\o3dgcFIFO.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\Open3DGC\o3dgcIndexedFaceSet.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\Open3DGC\o3dgcIndexedFaceSet.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\Open3DGC\o3dgcSC3DMCDecoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\Open3DGC\o3dgcSC3DMCDecoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\Open3DGC\o3dgcSC3DMCEncodeParams.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\Open3DGC\o3dgcSC3DMCEncoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\Open3DGC\o3dgcSC3DMCEncoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\Open3DGC\o3dgcTimer.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\Open3DGC\o3dgcTriangleFans.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\Open3DGC\o3dgcTriangleListDecoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\Open3DGC\o3dgcTriangleListDecoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\Open3DGC\o3dgcTriangleListEncoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\Open3DGC\o3dgcTriangleListEncoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\Open3DGC\o3dgcVector.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\Open3DGC\o3dgcVector.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\zip\src\miniz.h">
+      <Filter>ziplib</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\zip\src\zip.h">
+      <Filter>ziplib</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\pugixml\src\pugiconfig.hpp">
+      <Filter>Contrib\Pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\pugixml\src\pugixml.hpp">
+      <Filter>Contrib\Pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\contrib\stb\stb_image.h">
+      <Filter>Contrib\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\anim.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\aabb.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\ai_assert.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\camera.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\color4.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\color4.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\build\include\assimp\config.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\ColladaMetaData.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\commonMetaData.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\defs.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\cfileio.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\light.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\material.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\material.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\matrix3x3.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\matrix3x3.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\matrix4x4.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\matrix4x4.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\mesh.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\ObjMaterial.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\pbrmaterial.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\GltfMaterial.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\postprocess.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\quaternion.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\quaternion.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\scene.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\metadata.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\texture.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\types.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\vector2.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\vector2.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\vector3.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\vector3.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\version.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\cimport.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\AssertHandler.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\importerdesc.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\Importer.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\ProgressHandler.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\IOStream.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\IOSystem.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\cexport.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\Exporter.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\DefaultIOStream.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\DefaultIOSystem.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\ZipArchiveIOSystem.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\SceneCombiner.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\fast_atof.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\qnan.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\BaseImporter.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\Hash.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\MemoryIOWrapper.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\ParsingUtils.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\StreamReader.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\StreamWriter.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\StringComparison.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\StringUtils.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\SGSpatialSort.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\GenericProperty.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\SpatialSort.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\SkeletonMeshBuilder.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\SmallVector.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\SmoothingGroups.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\SmoothingGroups.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\StandardShapes.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\RemoveComments.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\Subdivision.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\Vertex.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\LineSplitter.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\TinyFormatter.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\Profiler.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\LogAux.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\Bitmap.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\XMLTools.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\IOStreamBuffer.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\CreateAnimMesh.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\XmlParser.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\MathFunctions.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\Exceptional.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\ByteSwapper.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\Base64.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\Compiler\pushpack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\Compiler\poppack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\include\assimp\Compiler\pstdint.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\code\res\assimp.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="AssetLib">
+      <UniqueIdentifier>{DD56F5A1-702A-3A4A-BA2E-93BF37E57ED6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\3D">
+      <UniqueIdentifier>{C5AA7FC6-0B68-3245-9770-1E89AB38F67E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\3DS">
+      <UniqueIdentifier>{679C66D6-D80F-3570-B150-7558B725E6EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\3MF">
+      <UniqueIdentifier>{8D7BCD36-3F40-34FE-ACDE-C70BCCEC83ED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\AC">
+      <UniqueIdentifier>{32B3D485-75B4-3AA2-9F39-DF63DEC67462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\AMF">
+      <UniqueIdentifier>{D8841709-2315-3F23-B0FA-63D78B65B919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\ASE">
+      <UniqueIdentifier>{C61AB09D-693D-36FF-9F5E-1D714150C362}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\ASSBIN">
+      <UniqueIdentifier>{641810BF-BD9B-3FBB-B57F-B5E80853C63B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\ASSJSON">
+      <UniqueIdentifier>{F55FFFC7-1C9D-370A-ACF5-0A253AE4635A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\ASSXML">
+      <UniqueIdentifier>{3E946AD6-0C80-3C4B-BCC5-87679397B691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\B3D">
+      <UniqueIdentifier>{18B2927C-8D48-3037-B57B-1A88D3E5F5CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\BLEND">
+      <UniqueIdentifier>{04AE66F7-B1FE-3AA5-AA2A-7ADD782C8685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\BVH">
+      <UniqueIdentifier>{4B5D1CA6-8B46-35FB-94A6-F8A768335511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\COB">
+      <UniqueIdentifier>{38144749-C7B0-377D-87D2-CD98336CEA45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\COLLADA">
+      <UniqueIdentifier>{40FDD3D7-0A6D-3D24-8507-00E13C09DC0C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\CSM">
+      <UniqueIdentifier>{338F0EF7-05F8-3C6F-AF2A-60F01E9BCF94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\DXF">
+      <UniqueIdentifier>{E069D5E2-B622-3DA5-94A8-1091C4A6CC2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\FBX">
+      <UniqueIdentifier>{5A9DCC03-ECED-3793-86F1-A5AE33F6B88F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\GLTF">
+      <UniqueIdentifier>{E1B987CE-2377-3F57-81E0-6FED9C98314C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\HMP">
+      <UniqueIdentifier>{FE2F3494-2A35-3FEB-A11B-378DBC410F98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\IFC">
+      <UniqueIdentifier>{0B8408F6-71AE-3CD2-A97A-D31784662356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\IQM">
+      <UniqueIdentifier>{C873ABC3-F1F3-36F3-AC28-6805F97BD1E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\IRR">
+      <UniqueIdentifier>{CD18BF4E-D8C6-3329-83D6-FF0E00A71F97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\IRRMESH">
+      <UniqueIdentifier>{C27C61E6-82DA-37FC-96D3-94F28BA2E7DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\LWO">
+      <UniqueIdentifier>{51BE2AE9-BFE1-3D93-B6EA-3E775586B4D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\LWS">
+      <UniqueIdentifier>{B62393B5-0934-30BB-902D-D17770F857FA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\M3D">
+      <UniqueIdentifier>{0D369D06-E270-348C-ADAC-3B7EB67BA6F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MD2">
+      <UniqueIdentifier>{15EBD606-BA14-3787-BCFA-41B48466C9D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MD3">
+      <UniqueIdentifier>{76BB648C-3833-3118-A200-32C6A3389378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MD5">
+      <UniqueIdentifier>{DD157B43-2F3A-35C9-BEA2-707AA1E3C42E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MDC">
+      <UniqueIdentifier>{2B9632AF-00D5-30B9-9FA3-CCD37EA58330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MDL">
+      <UniqueIdentifier>{74CB39BC-83B4-3021-8B90-ACF5058367DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MMD">
+      <UniqueIdentifier>{3FF47F5F-A217-37A3-8BCB-4E854D6DB0F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MS3D">
+      <UniqueIdentifier>{DD28A005-2D3B-3C68-81AA-4D30BA291DBC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\NDO">
+      <UniqueIdentifier>{450D2A34-207F-3095-BDC8-22F036BCFB06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\NFF">
+      <UniqueIdentifier>{D0491890-E2F7-3794-9E6B-5DFAD7798EA2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\OBJ">
+      <UniqueIdentifier>{71E0E547-F0A6-305E-BAC7-F95C09C1271F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\OFF">
+      <UniqueIdentifier>{4DEBEE0A-5CAF-33EB-8C2B-3E9ACBAAFB16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\OGRE">
+      <UniqueIdentifier>{AC495C92-7E66-37B3-A1AF-E356A9B002B7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\OPENGEX">
+      <UniqueIdentifier>{86387F52-D854-3D2F-91E2-4B10B9D03FAB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\PBRT">
+      <UniqueIdentifier>{7BE4D043-2E17-304F-ABB4-6D514EF2F538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\PLY">
+      <UniqueIdentifier>{8734748C-69F4-33D4-A68D-1DA1D4070EDB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\Q3BSP">
+      <UniqueIdentifier>{299B3354-E14D-3CA0-A60F-05CB6B6556F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\Q3D">
+      <UniqueIdentifier>{814E2A6C-C844-30DF-82C6-890F5CF53A91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\RAW">
+      <UniqueIdentifier>{A2853F5B-02C5-35B0-8357-5D15980C0BF6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\SIB">
+      <UniqueIdentifier>{D8DE61DC-6F20-379A-B7CC-D7F65307F466}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\SMD">
+      <UniqueIdentifier>{31AC660A-BCFC-38D7-8EEE-696418798BF3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\STEP">
+      <UniqueIdentifier>{BA709255-AD7F-3A0D-A4D3-C5C41205985D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\STL">
+      <UniqueIdentifier>{D7F3A442-79FD-33FC-A260-9B338286AE44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\TERRAGEN">
+      <UniqueIdentifier>{779D934A-035D-33FC-A18C-EA8287B544A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\X">
+      <UniqueIdentifier>{A1D3BC5E-0D55-3B67-BB96-1D1AD73838F5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\X3D">
+      <UniqueIdentifier>{EA15D117-ADC1-33AE-AF49-E2CA918983C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\XGL">
+      <UniqueIdentifier>{78D51502-0DA8-338F-B50D-7A605F0C035E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CApi">
+      <UniqueIdentifier>{BDCEC239-02C0-362A-BF4B-C8C67E7B7997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{0A269A08-34AC-314A-A8B1-1CABBB1D845C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compiler">
+      <UniqueIdentifier>{124F77A0-BD62-34CE-9C20-E764AD0F3FC1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib">
+      <UniqueIdentifier>{AFE251ED-D819-3B22-897B-2682B0989C28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\Clipper">
+      <UniqueIdentifier>{33C41DA6-71AD-3EC9-9015-53ACE0C23067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\Poly2Tri">
+      <UniqueIdentifier>{2885D785-7E7A-3354-B2B3-5F707B5AECB8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\Pugixml">
+      <UniqueIdentifier>{7ACF346A-1090-3E59-AB06-9414F53DAA48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\open3dgc">
+      <UniqueIdentifier>{AA86D7F3-69F8-3191-A670-038475C83CEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\openddl_parser">
+      <UniqueIdentifier>{7019F8C9-B776-34E3-B351-3F55380B77AD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\stb">
+      <UniqueIdentifier>{6FAC491F-964B-38A2-92DC-22E48CA73FFA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\unzip">
+      <UniqueIdentifier>{566181D3-ED45-3FEC-B9B1-AEB32470A34E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exporter">
+      <UniqueIdentifier>{C5F45643-8B87-38F5-BA0C-827AD67E90EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry">
+      <UniqueIdentifier>{6EFA590C-F73E-3BB4-A38F-585576CE78F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{BF6F8F0A-2927-32F9-B4A0-8CEFFD2067BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MaterialSystem">
+      <UniqueIdentifier>{E2B26BF8-A698-3E89-A705-8AABAF8D8612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostProcessing">
+      <UniqueIdentifier>{6B49EDE6-A6FD-398B-BE1E-73800BF1B729}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STEPParser">
+      <UniqueIdentifier>{5D7A1DFF-AA5F-3170-A320-204FD25991BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ED3778F4-C88F-3F19-8407-E377E7918DA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{BB36D5C3-2D4A-3D9D-B25B-DE680D83FF81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\assimp">
+      <UniqueIdentifier>{CD458A01-5492-350A-9535-E113085BB067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ziplib">
+      <UniqueIdentifier>{D4CFA4BA-6381-3A68-8117-51F179845FE5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

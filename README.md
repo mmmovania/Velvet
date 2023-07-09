@@ -1,3 +1,8 @@
+# Velvet with all dependencies
+This is a Windows compileable version of Velvet that includes all required dependencies. You just need to open Visual Studio 2019 or above and press the play button and it should build out of the box. Tested on Windows 10 x64 on Visual Studio Community 2019.
+
+#Original readme starts here#
+--------------------------------------------------------------
 # Velvet
 
 Velvet is a CUDA-accelerated cloth simulation engine based on Extended Position Based Dynamics (XPBD).

@@ -1,0 +1,99 @@
+Determining size of off64_t failed with the following output:
+Change Dir: F:/FreelanceWork/2022/Jeff_GarmentSimulator/Task4/Velvet-master/3rdParty/assimp-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_a9567.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30151 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  OFF64_T.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a9567.dir\Debug\\" /Fd"cmTC_a9567.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\build\CMakeFiles\CheckTypeSize\OFF64_T.c"
+F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\build\CMakeFiles\CheckTypeSize\OFF64_T.c(29,12): error C2065: 'off64_t': undeclared identifier [F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\build\CMakeFiles\CMakeTmp\cmTC_a9567.vcxproj]
+F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\build\CMakeFiles\CheckTypeSize\OFF64_T.c(30,12): error C2065: 'off64_t': undeclared identifier [F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\build\CMakeFiles\CMakeTmp\cmTC_a9567.vcxproj]
+F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\build\CMakeFiles\CheckTypeSize\OFF64_T.c(31,12): error C2065: 'off64_t': undeclared identifier [F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\build\CMakeFiles\CMakeTmp\cmTC_a9567.vcxproj]
+F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\build\CMakeFiles\CheckTypeSize\OFF64_T.c(32,12): error C2065: 'off64_t': undeclared identifier [F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\build\CMakeFiles\CMakeTmp\cmTC_a9567.vcxproj]
+F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\build\CMakeFiles\CheckTypeSize\OFF64_T.c(33,12): error C2065: 'off64_t': undeclared identifier [F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\build\CMakeFiles\CMakeTmp\cmTC_a9567.vcxproj]
+
+
+F:/FreelanceWork/2022/Jeff_GarmentSimulator/Task4/Velvet-master/3rdParty/assimp-master/build/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function fseeko exists failed with the following output:
+Change Dir: F:/FreelanceWork/2022/Jeff_GarmentSimulator/Task4/Velvet-master/3rdParty/assimp-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_b528e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30151 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b528e.dir\Debug\\" /Fd"cmTC_b528e.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.24\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol fseeko referenced in function main [F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\build\CMakeFiles\CMakeTmp\cmTC_b528e.vcxproj]
+F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\build\CMakeFiles\CMakeTmp\Debug\cmTC_b528e.exe : fatal error LNK1120: 1 unresolved externals [F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\build\CMakeFiles\CMakeTmp\cmTC_b528e.vcxproj]
+
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: F:/FreelanceWork/2022/Jeff_GarmentSimulator/Task4/Velvet-master/3rdParty/assimp-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_f4edf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30151 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f4edf.dir\Debug\\" /Fd"cmTC_f4edf.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [F:\FreelanceWork\2022\Jeff_GarmentSimulator\Task4\Velvet-master\3rdParty\assimp-master\build\CMakeFiles\CMakeTmp\cmTC_f4edf.vcxproj]
+
+
+
