@@ -140,8 +140,13 @@ public:
 		auto cloth = SpawnCloth(game, clothResolution);
 		cloth->Initialize(glm::vec3(0.0f, 1.5f, 1.0f), glm::vec3(1.0), glm::vec3(90, 0, 0));
 
+		#ifdef SOLVER_CPU
+		auto clothObj = cloth->GetComponent<VtClothObjectCPU>();
+		#else		
 		auto clothObj = cloth->GetComponent<VtClothObjectGPU>();
-		if (clothObj) clothObj->SetAttachedIndices({ 0, clothResolution, (clothResolution + 1) * (clothResolution + 1) - 1, (clothResolution + 1) * (clothResolution) });
+		#endif	
+		if (clothObj)
+			clothObj->SetAttachedIndices({ 0, clothResolution, (clothResolution + 1) * (clothResolution + 1) - 1, (clothResolution + 1) * (clothResolution) });
 
 	}
 };
@@ -169,11 +174,12 @@ public:
 		auto cloth = SpawnCloth(game, clothResolution, 2);
 		cloth->Initialize(glm::vec3(0, 2.5f, 0), glm::vec3(1.0));
 #ifdef SOLVER_CPU
-		auto clothObj = cloth->GetComponent<VtClothObject>();
+		auto clothObj = cloth->GetComponent<VtClothObjectCPU>();
 #else
 		auto clothObj = cloth->GetComponent<VtClothObjectGPU>();
 #endif
-		if (clothObj) clothObj->SetAttachedIndices({ 0, clothResolution });
+		if (clothObj) 
+			clothObj->SetAttachedIndices({ 0, clothResolution });
 	}
 };
 
@@ -195,7 +201,11 @@ public:
 		auto cloth = SpawnCloth(game, clothResolution, 1);
 		cloth->Initialize(glm::vec3(0.0f, 1.5f, 1.0f), glm::vec3(1.0), glm::vec3(-15, 10, 10));
 
+#ifdef SOLVER_CPU
+		auto clothObj = cloth->GetComponent<VtClothObjectCPU>();
+#else
 		auto clothObj = cloth->GetComponent<VtClothObjectGPU>();
+#endif
 	}
 };
 
@@ -257,12 +267,18 @@ public:
 		auto cube = SpawnColoredCube(game);
 		float radius = 1.0f;
 		cube->Initialize(glm::vec3(0, 0.5 * radius, 0), glm::vec3(radius));
-
-		auto solverActor = game->CreateActor("ClothSolver");
-		auto solver = make_shared<VtClothSolverGPU>();
-		solverActor->AddComponent(solver);
-
+		 
+		//auto solverActor = game->CreateActor("ClothSolver");
+		
 		int clothResolution = 64;
+
+	#ifdef SOLVER_CPU
+		auto solver = make_shared<VtClothSolverCPU>(clothResolution);
+	#else
+		auto solver = make_shared<VtClothSolverGPU>();
+	#endif
+		//solverActor->AddComponent(solver);
+
 		{
 			auto cloth = SpawnCloth(game, clothResolution, 1, solver);
 			cloth->Initialize(glm::vec3(0.0f, 1.5f, 1.0f), glm::vec3(1.0), glm::vec3(90, 0, 0));
@@ -320,15 +336,24 @@ public:
 		auto cloth = SpawnCloth(game, clothResolution);
 		cloth->Initialize(glm::vec3(0.0f, 1.5f, 1.0f), glm::vec3(1.0), glm::vec3(90, 0, 0));
 
+#ifdef SOLVER_CPU
+		auto clothObj = cloth->GetComponent<VtClothObjectCPU>();
+#else
 		auto clothObj = cloth->GetComponent<VtClothObjectGPU>();
-		if (clothObj) clothObj->SetAttachedIndices({ 0});
+#endif
+		if (clothObj) 
+			clothObj->SetAttachedIndices({0});
 
-		game->animationUpdate.Register([clothObj, sphere]() {
+		game->animationUpdate.Register([clothObj, sphere]()  {
 			float time = Timer::fixedDeltaTime() * Timer::physicsFrameCount() * 3;
 			auto pos = glm::vec3(sin(time), cos(time) + 2, 0);
+			#ifdef SOLVER_CPU
+			clothObj->SetAttachmentPosition(0, pos);
+			#else		
 			clothObj->attachSlotPositions()[0] = pos;
+			#endif		
 			sphere->transform->position = pos;
-			});
+		});
 	}
 };
 

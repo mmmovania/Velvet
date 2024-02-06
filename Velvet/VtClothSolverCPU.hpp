@@ -41,6 +41,7 @@ namespace Velvet
 
 		void Initialize(shared_ptr<Mesh> mesh, glm::mat4 modelMatrix)
 		{
+			Timer::StartTimer("INIT_SOLVER_CPU");
 			fmt::print("Info(VtClothSolver): Start\n");
 			m_mesh = mesh;
 
@@ -64,15 +65,20 @@ namespace Velvet
 			GenerateStretch();
 			GenerateAttachment(m_attachedIndices);
 			GenerateBending();
+
+			double time = Timer::EndTimer("INIT_SOLVER_CPU") * 1000;
+			fmt::print("Info(ClothSolverCPU): Initialize done. Took time {:.2f} ms\n", time);
+			fmt::print("Info(ClothSolverCPU): Use recommond max vel = {}\n", Global::simParams.maxSpeed);
 		}
 
 		void Simulate()
 		{
+			Timer::StartTimer("Solver_Total");
 			float frameTime = Timer::fixedDeltaTime();
 			float substepTime = Timer::fixedDeltaTime() / Global::simParams.numSubsteps;
 
 			// Pre-stablization pass [Unified particle physics for real-time applications (4.4)]
-			CollideSDF(m_positions);
+			/*CollideSDF(m_positions);
 
 			PredictPositions(frameTime);
 			m_spatialHash->HashObjects(m_predicted);
@@ -93,10 +99,38 @@ namespace Velvet
 					SolveAttachment();
 				}
 				Finalize(substepTime);
+			}*/
+
+			CollideSDF(m_positions, frameTime);
+
+			for (int substep = 0; substep < Global::simParams.numSubsteps; substep++)
+			{
+				PredictPositions(substepTime);
+
+				if (Global::simParams.enableSelfCollision)
+				{
+					if (substep % Global::simParams.interleavedHash == 0)
+					{
+						m_spatialHash->HashObjects(m_predicted);
+					}
+					CollideParticles();
+				}
+				CollideSDF(m_predicted, substepTime);
+
+				for (int iteration = 0; iteration < Global::simParams.numIterations; iteration++)
+				{
+					SolveStretch(substepTime);
+					SolveBending(substepTime);					
+					SolveAttachment();
+				}
+
+				Finalize(substepTime);
 			}
 
 			auto normals = ComputeNormals(m_positions);
 			m_mesh->SetVerticesAndNormals(m_positions, normals);
+
+			Timer::EndTimer("Solver_Total");
 		}
 
 		float particleDiameter() const
@@ -271,7 +305,7 @@ namespace Velvet
 			}
 		}
 
-		void CollideSDF(vector<glm::vec3>& positions) const
+		void CollideSDF(vector<glm::vec3>& positions, float deltaTime) const
 		{
 			// SDF collision
 			for (int i = 0; i < m_numVertices; i++)
@@ -282,12 +316,15 @@ namespace Velvet
 					glm::vec3 correction = col->ComputeSDF(pos);
 					positions[i] += correction;
 
-					glm::vec3 relativeVelocity = positions[i] - m_positions[i];
+					//glm::vec3 relativeVelocity = positions[i] - m_positions[i];
+					glm::vec3 relativeVelocity = positions[i] - m_positions[i] - col->VelocityAt(positions[i], deltaTime) * deltaTime ;
 					auto friction = ComputeFriction(correction, relativeVelocity);
 					positions[i] += friction;
 				}
 			}
 		}
+
+		
 
 		void SolveAttachment()
 		{
@@ -428,6 +465,7 @@ namespace Velvet
 		vector<unsigned int> m_indices;
 		vector<Collider*> m_colliders;
 		vector<int> m_attachedIndices;
+		//vector<glm::vec3> m_attachSlotPositions;
 
 		shared_ptr<Mesh> m_mesh;
 		shared_ptr<SpatialHashCPU> m_spatialHash;

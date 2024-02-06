@@ -22,6 +22,14 @@ namespace Velvet
 			m_solver->SetAttachedIndices(indices);
 		}
 
+		void SetAttachmentPosition(int index, glm::vec3 attachPos) const
+		{
+			//tuple<int, glm::vec3>& t = m_solver->m_attachmentConstriants[index];
+			//int idx = get<0>(t);			
+			//m_solver->m_predicted[idx] = attachPos;
+			get<1>(m_solver->m_attachmentConstriants[index]) = attachPos;
+		}
+
 		void Start() override
 		{
 			auto mesh = actor->GetComponent<MeshRenderer>()->mesh();
@@ -36,8 +44,10 @@ namespace Velvet
 
 		void FixedUpdate() override
 		{
-			UpdateGrappedVertex();
+			UpdateGrappedVertex(); 
+			Timer::StartTimer("CPU_TIME");
 			m_solver->Simulate();
+			Timer::EndTimer("CPU_TIME");
 		}
 
 		shared_ptr<VtClothSolverCPU> solver() const

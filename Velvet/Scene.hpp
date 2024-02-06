@@ -16,7 +16,7 @@
 #include "ParticleInstancedRenderer.hpp"
 #include "ParticleGeometryRenderer.hpp"
 
-//#define SOLVER_CPU
+#define SOLVER_CPU
 
 namespace Velvet
 {
@@ -247,8 +247,13 @@ namespace Velvet
 			return mesh;
 		}
 
-
-		shared_ptr<Actor> SpawnCloth(GameInstance* game, int resolution = 16, int textureFile = 1, shared_ptr<VtClothSolverGPU> solver = nullptr)
+		#ifdef SOLVER_CPU
+		shared_ptr<Actor> SpawnCloth(GameInstance* game, int resolution = 16, int textureFile = 1,
+			shared_ptr<VtClothSolverCPU> solver = nullptr)
+		#else
+		shared_ptr<Actor> SpawnCloth(GameInstance* game, int resolution = 16, int textureFile = 1,
+			shared_ptr<VtClothSolverGPU> solver = nullptr)
+		#endif		
 		{
 			auto cloth = game->CreateActor("Cloth Generated");
 
@@ -275,7 +280,8 @@ namespace Velvet
 			auto prenderer = make_shared<ParticleGeometryRenderer>();
 
 #ifdef SOLVER_CPU
-			auto clothObj = make_shared<VtClothObject>(resolution);
+			auto clothObj = make_shared<VtClothObjectCPU>(resolution); 
+			
 #else
 			if (solver == nullptr)
 			{
