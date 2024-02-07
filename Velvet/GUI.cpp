@@ -180,7 +180,8 @@ struct PerformanceStat
 	double cpuTime = 0;
 	// include solver_time + cuda_sync_time
 	double gpuTime = 0;
-	double solverTime = 0;
+	double solverTimeGPU = 0;
+	double solverTimeCPU = 0;
 
 	void Update()
 	{
@@ -195,7 +196,11 @@ struct PerformanceStat
 
 		if (Timer::PeriodicUpdate("GUI_FAST", Timer::fixedDeltaTime()))
 		{
+			#ifdef SOLVER_CPU
+			graphValues[graphIndex] = (float)Timer::GetTimer("Solver_Total")*1000;
+			#else	
 			graphValues[graphIndex] = (float)Timer::GetTimerGPU("Solver_Total");
+			#endif	
 			graphIndex = (graphIndex + 1) % IM_ARRAYSIZE(graphValues);
 		}
 
@@ -205,7 +210,8 @@ struct PerformanceStat
 			frameRate = elapsedTime > 0 ? (int)(frameCount / elapsedTime) : 0;
 			cpuTime = Timer::GetTimer("CPU_TIME") * 1000;
 			gpuTime = Timer::GetTimer("GPU_TIME") * 1000;
-			solverTime = Timer::GetTimerGPU("Solver_Total");
+			solverTimeGPU = Timer::GetTimerGPU("Solver_Total");
+			solverTimeCPU = Timer::GetTimer("Solver_Total") * 1000;
 
 			for (int n = 0; n < IM_ARRAYSIZE(graphValues); n++)
 				graphAverage += graphValues[n];
@@ -234,7 +240,11 @@ struct PerformanceStat
 
 		ImGui::Dummy(ImVec2(0, 5));
 		ImGui::PushItemWidth(-FLT_MIN);
-		auto overlay = fmt::format("Solver: {:.2f} ms ({:.2f} FPS)", solverTime, solverTime > 0 ? (1000.0 / solverTime) : 0);
+		#ifdef SOLVER_CPU
+		auto overlay = fmt::format("Solver: {:.2f} ms ({:.2f} FPS)", solverTimeCPU, solverTimeCPU > 0 ? (1000.0 / solverTimeCPU) : 0);
+		#else	
+		auto overlay = fmt::format("Solver: {:.2f} ms ({:.2f} FPS)", solverTimeGPU, solverTimeGPU > 0 ? (1000.0 / solverTimeGPU) : 0);
+		#endif	
 		ImGui::PlotLines("##", graphValues, IM_ARRAYSIZE(graphValues), graphIndex, overlay.c_str(),
 			0, graphAverage * 2.0f, ImVec2(0, 80.0f));
 		ImGui::Dummy(ImVec2(0, 5));
@@ -405,6 +415,11 @@ void GUI::ShowStatWindow()
 	ImGui::SetNextWindowSize(ImVec2(k_rightWindowWidth * 1.1f, 0));
 	ImGui::SetNextWindowPos(ImVec2(m_canvasWidth - k_rightWindowWidth * 1.1f - 20, 20.0f));
 	ImGui::Begin("Statistics", NULL, k_windowFlags);
+	#ifdef SOLVER_CPU
+	ImGui::Text("Cloth Solver: CPU");
+	#else
+	ImGui::Text("Cloth Solver: GPU");
+	#endif
 	ImGui::Text("Device:  %s", m_deviceName.c_str());
 
 	static PerformanceStat stat;
