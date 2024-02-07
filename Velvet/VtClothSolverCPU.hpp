@@ -12,6 +12,7 @@
 #include "SpatialHashCPU.hpp"
 #include "Timer.hpp"
 
+
 namespace Velvet
 {
 	class VtClothSolverCPU
@@ -310,16 +311,22 @@ namespace Velvet
 			// SDF collision
 			for (int i = 0; i < m_numVertices; i++)
 			{
-				for (auto col : m_colliders)
-				{
-					auto pos = positions[i];
-					glm::vec3 correction = col->ComputeSDF(pos);
-					positions[i] += correction;
+				glm::vec3& pos = positions[i];
 
-					//glm::vec3 relativeVelocity = positions[i] - m_positions[i];
-					glm::vec3 relativeVelocity = positions[i] - m_positions[i] - col->VelocityAt(positions[i], deltaTime) * deltaTime ;
-					auto friction = ComputeFriction(correction, relativeVelocity);
-					positions[i] += friction;
+				for (auto col : m_colliders)
+				{		
+					glm::vec3 correction = col->ComputeSDF(pos);
+					pos += correction;
+					
+					if (glm::dot(correction, correction) > 0)
+					{
+						glm::vec3 relativeVelocity = pos - m_positions[i] - col->VelocityAt(pos, deltaTime);// *deltaTime;
+
+						//glm::vec3 relativeVelocity = positions[i] - m_positions[i];
+
+						auto friction = ComputeFriction(correction, relativeVelocity);
+						pos += friction;
+					}
 				}
 			}
 		}

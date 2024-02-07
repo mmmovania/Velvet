@@ -16,7 +16,7 @@
 #include "ParticleInstancedRenderer.hpp"
 #include "ParticleGeometryRenderer.hpp"
 
-#define SOLVER_CPU
+//#define SOLVER_CPU
 
 namespace Velvet
 {

@@ -7,13 +7,14 @@
 
 namespace Velvet
 {
+	
 	class Collider : public Component
 	{
 	public:
 		ColliderType type = ColliderType::Sphere;
 		glm::vec3 lastPos;
 		glm::vec3 velocity;
-		glm::mat3 curTransform;
+		glm::mat4 curTransform;
 		glm::mat4 invCurTransform;
 		glm::mat4 lastTransform;
 		glm::vec3 scale;
@@ -59,7 +60,7 @@ namespace Velvet
 			else if (type == ColliderType::Cube)
 			{
 				return ComputeCubeSDF(position);
-			}
+			} 
 		}
 
 		virtual glm::vec3 ComputePlaneSDF(glm::vec3 position)
@@ -94,9 +95,8 @@ namespace Velvet
 
 		virtual glm::vec3 ComputeCubeSDF(glm::vec3 position)
 		{  
-			auto mypos = actor->transform->position;
 			glm::vec3 correction = glm::vec3(0);
-			glm::vec3 localPos = invCurTransform * glm::vec4(position - mypos, 1.0);
+			glm::vec3 localPos = invCurTransform * glm::vec4(position, 1.0);
 			glm::vec3 cubeSize = glm::vec3(0.5f, 0.5f, 0.5f) + Global::simParams.collisionMargin / scale;
 			glm::vec3 offset = glm::abs(localPos) - cubeSize;
 
@@ -134,15 +134,16 @@ namespace Velvet
 				{
 					correction = glm::vec3(0, 0, copysignf(-offset.z, localPos.z));
 				}
+				return glm::vec3(curTransform * glm::vec4(scalar * correction, 0));
 			}
- 			return curTransform * scalar * correction; 
+			return glm::vec3(0, 0, 0);
 		}
 
 		glm::vec3 VelocityAt(const glm::vec3 targetPosition, float deltaTime)
 		{
 			glm::vec4 lastPos = lastTransform * invCurTransform * glm::vec4(targetPosition, 1.0);
 			glm::vec3 vel = (targetPosition - glm::vec3(lastPos)) / deltaTime;
-			return vel;
+			return vel; 
 		}
 	};
 }

@@ -49,8 +49,8 @@ namespace Velvet
 				glm::vec3 offset = glm::abs(localPos) - cubeSize;
 
 				float maxVal = max(offset.x, max(offset.y, offset.z));
-				float minVal = min(offset.x, min(offset.y, offset.z)); 
-				float midVal = offset.x  + offset.y + offset.z - maxVal - minVal;
+				float minVal = min(offset.x, min(offset.y, offset.z));
+				float midVal = offset.x + offset.y + offset.z - maxVal - minVal;
 				float scalar = 1.0f;
 
 				if (maxVal < 0)

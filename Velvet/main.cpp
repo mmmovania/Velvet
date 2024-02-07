@@ -267,18 +267,17 @@ public:
 		auto cube = SpawnColoredCube(game);
 		float radius = 1.0f;
 		cube->Initialize(glm::vec3(0, 0.5 * radius, 0), glm::vec3(radius));
-		 
-		//auto solverActor = game->CreateActor("ClothSolver");
-		
+		  
 		int clothResolution = 64;
 
 	#ifdef SOLVER_CPU
 		auto solver = make_shared<VtClothSolverCPU>(clothResolution);
 	#else
+		auto solverActor = game->CreateActor("ClothSolver");
 		auto solver = make_shared<VtClothSolverGPU>();
+		solverActor->AddComponent(solver);
 	#endif
-		//solverActor->AddComponent(solver);
-
+		 
 		{
 			auto cloth = SpawnCloth(game, clothResolution, 1, solver);
 			cloth->Initialize(glm::vec3(0.0f, 1.5f, 1.0f), glm::vec3(1.0), glm::vec3(90, 0, 0));

@@ -40,6 +40,27 @@
     <ClCompile Include="Timer.cpp">
       <Filter>Graphics\Source</Filter>
     </ClCompile>
+    <ClCompile Include="..\3rdParty\imgui-master\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdParty\imgui-master\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdParty\imgui-master\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdParty\imgui-master\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdParty\imgui-master\backends\imgui_impl_glfw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdParty\imgui-master\backends\imgui_impl_opengl3.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdParty\glad\src\glad.c">
+      <Filter>glad</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="External">
@@ -71,6 +92,12 @@
     </Filter>
     <Filter Include="Physics\ClothSolverCPU">
       <UniqueIdentifier>{2a11c8e6-2062-4e7c-9bf0-91efa99a1f0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{668fefc8-3465-434a-8ddd-7f821654f2b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glad">
+      <UniqueIdentifier>{ba28ab2e-69c6-4fc8-bb47-e33316f0d0a9}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -177,10 +204,10 @@
     <ClInclude Include="MouseGrabber.hpp">
       <Filter>Physics\ClothSolverGPU</Filter>
     </ClInclude>
-    <ClInclude Include="VtClothSolverCPU.hpp">
+    <ClInclude Include="VtClothObjectCPU.hpp">
       <Filter>Physics\ClothSolverCPU</Filter>
     </ClInclude>
-    <ClInclude Include="VtClothObjectCPU.hpp">
+    <ClInclude Include="VtClothSolverCPU.hpp">
       <Filter>Physics\ClothSolverCPU</Filter>
     </ClInclude>
   </ItemGroup>

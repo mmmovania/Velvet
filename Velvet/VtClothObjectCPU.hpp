@@ -23,10 +23,7 @@ namespace Velvet
 		}
 
 		void SetAttachmentPosition(int index, glm::vec3 attachPos) const
-		{
-			//tuple<int, glm::vec3>& t = m_solver->m_attachmentConstriants[index];
-			//int idx = get<0>(t);			
-			//m_solver->m_predicted[idx] = attachPos;
+		{ 
 			get<1>(m_solver->m_attachmentConstriants[index]) = attachPos;
 		}
 

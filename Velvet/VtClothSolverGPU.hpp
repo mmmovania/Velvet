@@ -200,7 +200,7 @@ namespace Velvet
 				sc.invCurTransform = glm::inverse(c->curTransform);
 				sc.lastTransform = c->lastTransform;
 				sc.deltaTime = Timer::fixedDeltaTime();
-				sdfColliders[i] = sc;
+				sdfColliders[i] = sc; 
 			}
 		}
 
