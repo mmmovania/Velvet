@@ -22,6 +22,8 @@ namespace Velvet
 		vector<glm::vec3> m_positions;
 		vector<glm::vec3> m_predicted;
 		vector<glm::vec3> m_velocities;
+		vector<glm::vec3> m_deltas;
+		vector<int>		  m_deltaCounts;
 		vector<float> m_inverseMass;
 
 		vector<tuple<int, int, float>> m_stretchConstraints; // idx1, idx2, distance
@@ -60,8 +62,15 @@ namespace Velvet
 			m_predicted = vector<glm::vec3>(m_numVertices);
 			m_inverseMass = vector<float>(m_numVertices, 1.0);
 
-			m_particleDiameter = glm::length(m_positions[0] - m_positions[m_resolution + 1]);
+			m_deltas = vector<glm::vec3>(m_numVertices, glm::vec3(0));
+			m_deltaCounts = vector<int>(m_numVertices, 0);
+
+			//m_particleDiameter = glm::length(m_positions[0] - m_positions[m_resolution + 1]);
+			m_particleDiameter = glm::length(m_positions[0] - m_positions[1]) * Global::simParams.particleDiameterScalar;
+			std::cout << "particle diameter: " << m_particleDiameter << std::endl;
+
 			m_spatialHash = make_shared<SpatialHashCPU>(m_particleDiameter, m_numVertices);
+			m_spatialHash->SetInitialPositions(m_positions);
 
 			GenerateStretch();
 			GenerateAttachment(m_attachedIndices);
@@ -77,6 +86,7 @@ namespace Velvet
 			Timer::StartTimer("Solver_Total");
 			float frameTime = Timer::fixedDeltaTime();
 			float substepTime = Timer::fixedDeltaTime() / Global::simParams.numSubsteps;
+			 
 
 			// Pre-stablization pass [Unified particle physics for real-time applications (4.4)]
 			/*CollideSDF(m_positions);
@@ -102,11 +112,11 @@ namespace Velvet
 				Finalize(substepTime);
 			}*/
 
-			CollideSDF(m_positions, frameTime);
+			CollideSDF(m_positions, m_positions, frameTime);
 
 			for (int substep = 0; substep < Global::simParams.numSubsteps; substep++)
 			{
-				PredictPositions(substepTime);
+				PredictPositions(m_predicted, m_velocities, m_positions, substepTime);
 
 				if (Global::simParams.enableSelfCollision)
 				{
@@ -115,14 +125,15 @@ namespace Velvet
 						m_spatialHash->HashObjects(m_predicted);
 					}
 					CollideParticles();
+					//ApplyDeltas();
 				}
-				CollideSDF(m_predicted, substepTime);
+				CollideSDF(m_predicted, m_positions, substepTime);
 
 				for (int iteration = 0; iteration < Global::simParams.numIterations; iteration++)
 				{
 					SolveStretch(substepTime);
 					SolveBending(substepTime);					
-					SolveAttachment();
+					SolveAttachment(); 
 				}
 
 				Finalize(substepTime);
@@ -139,6 +150,19 @@ namespace Velvet
 			return m_particleDiameter;
 		}
 
+		void ApplyDeltas()
+		{
+			for (int i = 0; i < m_numVertices; i++)
+			{
+				float count = (float)m_deltaCounts[i];
+				if (count > 0)
+				{
+					m_predicted[i] += m_deltas[i] / count * Global::simParams.relaxationFactor;
+					m_deltas[i] = glm::vec3(0);
+					m_deltaCounts[i] = 0;
+				}
+			}
+		}
 	private: // Generate constraints
 
 		void GenerateStretch()
@@ -217,12 +241,12 @@ namespace Velvet
 
 	private: // Core physics
 
-		void PredictPositions(float deltaTime)
+		void PredictPositions(vector<glm::vec3>& predicted, vector<glm::vec3>& velocities, const vector<glm::vec3>& positions, const float deltaTime)
 		{
 			for (int i = 0; i < m_numVertices; i++)
 			{
-				m_velocities[i] += Global::simParams.gravity * deltaTime;
-				m_predicted[i] = m_positions[i] + m_velocities[i] * deltaTime;
+				velocities[i] += Global::simParams.gravity * deltaTime;
+				predicted[i] = positions[i] + velocities[i] * deltaTime;
 			}
 		}
 
@@ -238,17 +262,33 @@ namespace Velvet
 				float distance = glm::length(diff);
 				auto w1 = m_inverseMass[idx1];
 				auto w2 = m_inverseMass[idx2];
+				auto denom = w1 + w2;
 
 				// We use unilateral constraints instead of bilateral constraints
 				// Otherwise the cloth may not look well after collision
-				if (distance > expectedDistance && w1 + w2 > 0)
+				if (distance != expectedDistance && denom > 0)
 				{
 					auto gradient = diff / (distance + k_epsilon);
-					// compliance is zero, therefore XPBD=PBD
-					auto denom = w1 + w2;
+					// compliance is zero, therefore XPBD=PBD					
 					auto lambda = (distance - expectedDistance) / denom;
-					m_predicted[idx1] -= w1 * lambda * gradient;
-					m_predicted[idx2] += w2 * lambda * gradient;
+					glm::vec3 common = lambda * gradient;
+					m_predicted[idx1] -= w1 * common;
+					m_predicted[idx2] += w2 * common;
+
+					int reorder = idx1 + idx2;
+					int r1 = reorder % 3;
+					int r2 = (reorder + 1) % 3;
+					int r3 = (reorder + 2) % 3;
+					m_deltas[idx1][r1] += common[r1];
+					m_deltas[idx1][r2] += common[r2];
+					m_deltas[idx1][r3] += common[r3];
+
+					m_deltas[idx2][r1] += common[r1];
+					m_deltas[idx2][r2] += common[r2];
+					m_deltas[idx2][r3] += common[r3];
+
+					m_deltaCounts[idx1]++;
+					m_deltaCounts[idx2]++;
 				}
 			}
 		}
@@ -259,9 +299,9 @@ namespace Velvet
 			for (auto c : m_bendingConstraints)
 			{
 				// tri(idx1, idx3, idx2) and tri(idx1, idx2, idx4)
-				auto idx1 = get<2>(c);
+				auto idx1 = get<0>(c);
 				auto idx2 = get<1>(c);
-				auto idx3 = get<0>(c);
+				auto idx3 = get<2>(c);
 				auto idx4 = get<3>(c);
 				auto expectedAngle = get<4>(c);
 
@@ -297,49 +337,115 @@ namespace Velvet
 				//{
 				//	fmt::print("NAN detected\n");
 				//}
+				int reorder = idx1 + idx2 + idx3 + idx4;
+				int r1 = reorder % 3;
+				int r2 = (reorder + 1) % 3;
+				int r3 = (reorder + 2) % 3;
+				m_deltas[idx1][r1] += w1 * lambda * q1[r1];
+				m_deltas[idx1][r2] += w1 * lambda * q1[r2];
+				m_deltas[idx1][r3] += w1 * lambda * q1[r3];
 
+				m_deltas[idx2][r1] += w2 * lambda * q2[r1];
+				m_deltas[idx2][r2] += w2 * lambda * q2[r2];
+				m_deltas[idx2][r3] += w2 * lambda * q2[r3];
+
+				m_deltas[idx3][r1] += w3 * lambda * q3[r1];
+				m_deltas[idx3][r2] += w3 * lambda * q3[r2];
+				m_deltas[idx3][r3] += w3 * lambda * q3[r3];
+
+				m_deltas[idx4][r1] += w4 * lambda * q4[r1];
+				m_deltas[idx4][r2] += w4 * lambda * q4[r2];
+				m_deltas[idx4][r3] += w4 * lambda * q4[r3];
+
+				m_deltaCounts[idx1]++;
+				m_deltaCounts[idx2]++;
+				m_deltaCounts[idx3]++;
+				m_deltaCounts[idx4]++;
+
+				/*
 				m_predicted[idx1] += w1 * lambda * q1;
 				m_predicted[idx2] += w2 * lambda * q2;
 				m_predicted[idx3] += w3 * lambda * q3;
 				m_predicted[idx4] += w4 * lambda * q4;
-
+				*/
 			}
 		}
 
-		void CollideSDF(vector<glm::vec3>& positions, float deltaTime) const
+		void CollideSDF(vector<glm::vec3>& predicted, vector<glm::vec3>& positions, const float deltaTime)
 		{
 			// SDF collision
 			for (int i = 0; i < m_numVertices; i++)
 			{
-				glm::vec3& pos = positions[i];
+				glm::vec3 pos = positions[i];
+				auto pred = predicted[i];
+
+				for (auto col : m_colliders)
+				{
+					glm::vec3 correction = col->ComputeSDF(pred);
+					pred += correction;
+
+					if (glm::dot(correction, correction) > 0)
+					{
+						glm::vec3 relativeVelocity = pred - pos - col->VelocityAt(pred, deltaTime) * deltaTime;
+						auto friction = ComputeFriction(correction, relativeVelocity);
+						pred += friction;
+					}
+				}
+				predicted[i] = pred;
+			}
+		}
+		/*
+		void CollideSDF(vector<glm::vec3>& positions, float deltaTime)
+		{
+			// SDF collision
+			for (int i = 0; i < m_numVertices; i++)
+			{
+				glm::vec3 pos = positions[i];
+				auto pred = m_predicted[i];
 
 				for (auto col : m_colliders)
 				{		
-					glm::vec3 correction = col->ComputeSDF(pos);
-					pos += correction;
+					glm::vec3 correction = col->ComputeSDF(pred);
+					pred += correction;
 					
 					if (glm::dot(correction, correction) > 0)
 					{
-						glm::vec3 relativeVelocity = pos - m_positions[i] - col->VelocityAt(pos, deltaTime);// *deltaTime;
-
-						//glm::vec3 relativeVelocity = positions[i] - m_positions[i];
-
+						glm::vec3 relativeVelocity = pred-pos - col->VelocityAt(pred, deltaTime) * deltaTime;
 						auto friction = ComputeFriction(correction, relativeVelocity);
-						pos += friction;
+						pred += friction;
 					}
 				}
+				m_predicted[i] = pred;
 			}
-		}
-
+		}*/
 		
-
 		void SolveAttachment()
 		{
 			for (const auto& c : m_attachmentConstriants)
 			{
+				 
 				int idx = get<0>(c);
 				glm::vec attachPos = get<1>(c);
 				m_predicted[idx] = attachPos;
+				 
+
+				/*glm::vec3 slotPos = attachPos;
+				float dist = glm::distance(m_positions[idx], slotPos);
+				float targetDist = dist * Global::simParams.longRangeStretchiness;
+
+				if (m_inverseMass[idx] == 0 && targetDist > 0) 
+					return;
+				
+				glm::vec3 pred = m_predicted[idx];
+				glm::vec3 diff = pred - slotPos;
+				dist = glm::length(diff);
+
+				if (dist > targetDist)
+				{
+					//float coefficient = max(targetDist, dist - 0.1*d_params.particleDiameter);// 0.05 * targetDist + 0.95 * dist;
+					glm::vec3 correction = -diff + diff / dist * targetDist;
+					m_predicted[idx] += correction; 
+				} */
 			}
 		}
 
@@ -361,11 +467,44 @@ namespace Velvet
 		{
 			for (int i = 0; i < m_numVertices; i++)
 			{
+				int deltaCount = 0;
+				glm::vec3 positionDelta = glm::vec3(0);
+				glm::vec3 pred_i = m_predicted[i];
+				glm::vec3 vel_i = (pred_i - m_positions[i]);
+				float w_i = m_inverseMass[i];
+
 				const auto neighbors = m_spatialHash->GetNeighbors(i);
+
 				for (int j : neighbors)
 				{
 					if (i >= j) continue;
-					auto idx1 = i;
+					
+					float w_j = m_inverseMass[j];
+					float denom = w_i + w_j;
+					if (denom <= 0) continue;
+
+					glm::vec3 pred_j = m_predicted[j];
+					glm::vec3 diff = pred_i - pred_j;
+					float distance = glm::length(diff);
+					if (distance >= m_particleDiameter) 
+						continue;
+					glm::vec3 gradient = diff / (distance + k_epsilon);
+					float lambda = (m_particleDiameter - distance) / denom;
+					glm::vec3 common = lambda * gradient;
+
+					//deltaCount++;
+					//positionDelta -= w_i * common;
+
+					glm::vec3 relativeVelocity = vel_i - (pred_j - m_positions[j]);
+					glm::vec3 friction = ComputeFriction(common, relativeVelocity);
+					//positionDelta += w_i * friction;
+
+					m_predicted[i] += w_i * common;
+					m_predicted[j] -= w_j * common;
+					m_predicted[i] += w_i * friction;
+					m_predicted[j] -= w_j * friction;
+
+					/*auto idx1 = i;
 					auto idx2 = j;
 					auto expectedDistance = m_particleDiameter;
 
@@ -373,22 +512,30 @@ namespace Velvet
 					float distance = glm::length(diff);
 					auto w1 = m_inverseMass[idx1];
 					auto w2 = m_inverseMass[idx2];
+					auto denom = w1 + w2;
 
-					if (distance < expectedDistance && w1 + w2 > 0)
+					if ( distance < expectedDistance && denom > 0)
 					{
 						auto gradient = diff / (distance + k_epsilon);
-						auto denom = w1 + w2;
 						auto lambda = (distance - expectedDistance) / denom;
 						auto common = lambda * gradient;
 						m_predicted[idx1] -= w1 * common;
 						m_predicted[idx2] += w2 * common;
 
-						glm::vec3 relativeVelocity = (m_predicted[idx1] - m_positions[idx1]) - (m_predicted[idx2] - m_positions[idx2]);
+						deltaCount++;
+						positionDelta -= w1 * common;
+
+						glm::vec3 relativeVelocity = m_velocities[idx1] - (m_predicted[idx2] - m_positions[idx2]);
 						auto friction = ComputeFriction(common, relativeVelocity);
+
 						m_predicted[idx1] += w1 * friction;
 						m_predicted[idx2] -= w2 * friction;
-					}
+
+						positionDelta += w1 * friction; 
+					}*/
 				}
+				//m_deltas[i] = positionDelta;
+				//m_deltaCounts[i] = deltaCount; 
 			}
 		}
 
@@ -399,7 +546,7 @@ namespace Velvet
 			{
 				//m_velocities[i] = (m_predicted[i] - m_positions[i]) / deltaTime;
 				// damp
-				m_velocities[i] = (m_predicted[i] - m_positions[i]) / deltaTime * (1 - Global::simParams.damping * deltaTime);
+				m_velocities[i] = ((m_predicted[i] - m_positions[i]) / deltaTime) * (1 - Global::simParams.damping * deltaTime);
 				m_positions[i] = m_predicted[i];
 			}
 		}

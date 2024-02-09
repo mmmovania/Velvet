@@ -45,9 +45,7 @@ namespace Velvet
 		CONST(glm::vec3*) positions,
 		const float deltaTime)
 	{
-		GET_CUDA_ID(id, d_params.numParticles);
-
-		glm::vec3 gravity = glm::vec3(0, -10, 0);
+		GET_CUDA_ID(id, d_params.numParticles); 
 		velocities[id] += d_params.gravity * deltaTime;
 		predicted[id] = positions[id] + velocities[id] * deltaTime;
 	}
@@ -81,12 +79,13 @@ namespace Velvet
 		float distance = glm::length(diff);
 		float w1 = invMasses[idx1];
 		float w2 = invMasses[idx2];
+		float denom = w1 + w2;
 
-		if (distance != expectedDistance && w1 + w2 > 0)
+		if (distance != expectedDistance && denom > 0)
 		{
 			glm::vec3 gradient = diff / (distance + EPSILON);
 			// compliance is zero, therefore XPBD=PBD
-			float denom = w1 + w2;
+			
 			float lambda = (distance - expectedDistance) / denom;
 			glm::vec3 common = lambda * gradient;
 			glm::vec3 correction1 = -w1 * common;

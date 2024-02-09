@@ -1,6 +1,7 @@
 #pragma once
 
 #include "MeshRenderer.hpp"
+#define SOLVER_CPU
 
 namespace Velvet
 {
@@ -20,7 +21,11 @@ namespace Velvet
 
 		void Start() override
 		{
+			#ifdef SOLVER_CPU
+			m_cloth = actor->GetComponent<VtClothObjectCPU>();
+			#else
 			m_cloth = actor->GetComponent<VtClothObjectGPU>();
+			#endif
 			m_mesh = CustomMesh();
 		}
 
@@ -68,7 +73,11 @@ namespace Velvet
 			glDrawArrays(GL_POINTS, 0, m_numParticles);
 		}
 	private:
+		#ifdef SOLVER_CPU
+		VtClothObjectCPU* m_cloth;
+		#else	
 		VtClothObjectGPU* m_cloth;
+		#endif	
 		int m_numParticles;
 	};
 }

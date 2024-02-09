@@ -75,7 +75,7 @@ namespace Velvet
 			for (int substep = 0; substep < Global::simParams.numSubsteps; substep++)
 			{
 				PredictPositions(predicted, velocities, positions, substepTime);
-
+				 
 				if (Global::simParams.enableSelfCollision)
 				{
 					if (substep % Global::simParams.interleavedHash == 0)

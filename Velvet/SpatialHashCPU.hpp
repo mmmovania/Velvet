@@ -13,11 +13,22 @@ namespace Velvet
 	public:
 		SpatialHashCPU(float spacing, int maxNumObjects)
 		{
-			m_spacing = spacing;
+			m_particleDiameter2 = spacing * spacing;
+			m_spacing = spacing * Global::simParams.hashCellSizeScalar;
+			m_spacing2 = m_spacing * m_spacing;
 			m_tableSize = 2 * maxNumObjects;
 			m_cellStart = vector<int>(m_tableSize + 1, 0);
 			m_cellEntries = vector<int>(maxNumObjects, 0);
 			m_neighbors = vector<vector<int>>(maxNumObjects);
+		}
+
+		void SetInitialPositions(const vector<glm::vec3>& positions)
+		{
+			m_initialPositions.resize(positions.size());
+			for (int i = 0; i < positions.size(); i++)
+			{
+				m_initialPositions[i] = positions[i];
+			}
 		}
 
 		void HashObjects(const vector<glm::vec3>& positions)
@@ -61,8 +72,9 @@ namespace Velvet
 		vector<int> m_cellEntries;
 		vector<int> m_cellStart;
 		vector<vector<int>> m_neighbors;
+		vector<glm::vec3> m_initialPositions;
 		int m_tableSize;
-		float m_spacing;
+		float m_spacing, m_spacing2, m_particleDiameter2;
 
 		inline int ComputeIntCoord(float value)
 		{
@@ -89,24 +101,29 @@ namespace Velvet
 		{
 			for (int i = 0; i < positions.size(); i++)
 			{
-				m_neighbors[i] = QueryNeighbors(positions[i]);
+				m_neighbors[i] = QueryNeighbors(positions, i);
 			}
 		}
 
-		vector<int> QueryNeighbors(glm::vec3 position)
+		vector<int> QueryNeighbors(const vector<glm::vec3>& positions, int id)
 		{
 			vector<int> result;
+
+			glm::vec3 position = positions[id];
+			glm::vec3 originalPosition = m_initialPositions[id];
 
 			int ix = ComputeIntCoord(position.x);
 			int iy = ComputeIntCoord(position.y);
 			int iz = ComputeIntCoord(position.z);
 
+			 
 			for (int x = ix - 1; x <= ix + 1; x++)
 			{
 				for (int y = iy - 1; y <= iy + 1; y++)
 				{
 					for (int z = iz - 1; z <= iz + 1; z++)
 					{
+						/*
 						int h = HashCoords(x, y, z);
 						int start = m_cellStart[h];
 						int end = m_cellStart[h + 1];
@@ -114,6 +131,26 @@ namespace Velvet
 						for (int i = start; i < end; i++)
 						{
 							result.push_back(m_cellEntries[i]);
+						}
+						*/
+
+						int h = HashCoords(x, y, z);
+						int start = m_cellStart[h];
+						if (start == 0xffffffff) continue;
+
+						int end = m_cellStart[h+1];
+
+						for (int i = start; i < end; i++)
+						{
+							int neighbor = m_cellEntries[i];
+							// ignore collision when particles are initially close
+							if (neighbor != id &&
+								(glm::distance(position, positions[neighbor]) < m_spacing) &&
+								(glm::distance(originalPosition, m_initialPositions[neighbor]) > m_spacing))
+							{ 
+								//m_neighbors[id].push_back( neighbor );
+								result.push_back(neighbor);
+							}
 						}
 					}
 				}

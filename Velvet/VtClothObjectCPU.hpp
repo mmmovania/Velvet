@@ -52,6 +52,11 @@ namespace Velvet
 			return m_solver;
 		}
 
+		float particleDiameter() const
+		{
+			return m_solver->particleDiameter();
+		}
+
 	private:
 		shared_ptr<VtClothSolverCPU> m_solver;
 
